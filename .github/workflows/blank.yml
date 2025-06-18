@@ -1,0 +1,14 @@
+name: MeuPrimeirWorkflow
+
+on:
+  push:
+    branches: [ "main", "develop" ]
+jobs:
+  test_job:
+    name: Executando job de teste
+    runs-on: self-hosted
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Run a multi-line script
+      run: echo "Meu projeto YAML com a FIAP".
