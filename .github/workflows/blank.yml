@@ -20,4 +20,4 @@ jobs:
     - name: Step 04
       run: echo "Usando windows".
     - name: Step 05
-      run: echo "Nao vai buildar".
+      run: echo "Agora vai buildar".
