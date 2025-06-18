@@ -8,7 +8,11 @@ jobs:
     name: Executando job de teste
     runs-on: self-hosted
     steps:
-    - name: Checkout repository
+    - name: Step 01
       uses: actions/checkout@v4
-    - name: Run a multi-line script
+    - name: Step 02
       run: echo "Meu projeto YAML com a FIAP".
+    - name: Step 03
+      run: echo "Projeto de runner local".
+    - name: Step 04
+      run: echo "Usando windows".
