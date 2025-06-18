@@ -6,8 +6,8 @@ on:
       - 'main'
       - 'wip/*'
       - 'release/[0-9]+\.[0-9]+\.[0-9]+'
-    types:
-      - commit
+    #types:
+      #- commit
       # - update
 jobs:
   test_job:
